@@ -1,3 +1,5 @@
+#!/bin/bash
+
 IFS=$' \n '
 read -d '' -r lines < <(echo "one"; echo "two"; echo "three")
 lines=($lines)
