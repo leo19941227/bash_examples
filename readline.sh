@@ -7,5 +7,9 @@ echo "${lines[1]}"
 
 
 (echo "one"; echo "two"; echo "three") | while read line; do
-	echo "$line"
+    echo "$line"
+done
+
+ls -l | while read line; do
+    echo $line
 done
